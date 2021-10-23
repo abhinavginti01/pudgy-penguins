@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --mint:#beedfd;
+}
+
+body{
+    background-color: #07081d !important;
+    font-family: 'Lato', sans-serif !important;
+    color: #fff !important;
+}
+
+.text-mint{
+    color: var(--mint);
+}
+
+.font-rammetto{
+    font-family: 'Rammetto One', cursive;
+}
+
+#hero .right .img-border{
+    background-image: url(/images/meltedice.svg);
+    background-repeat: no-repeat;
+    background-size: 99%;
+    width: 108%;
+    height: 135%;
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -10px;
+}
+
+#hero .right .pineapple img {
+    width: 100%;
+    height: auto;
+}
+
+#event .left .cadre:after {
+    content: "";
+    background-image: url(/images/meltedice.svg);
+    background-repeat: no-repeat;
+    background-size: 99%;
+    width: 108%;
+    height: 130%;
+    display: block;
+    position: absolute;
+    top: -8px;
+    left: -15px;
+}
+
+.pudgy-btn {
+    background: #beedfd !important;
+    color: #07081d !important;
+    padding: 3px 20px !important;
+    border-radius: 3px !important;
+    text-decoration: none !important;
+    transition: .3s !important;
+    display: inline-block !important;
+    font-weight: 700 !important;
+    cursor: pointer !important;
+}
+
+#collection{
+    margin-top:120px !important;
+}
+
+#collection .content .member, #my-tokens .content .member {
+    max-width: 333px;
+    width: 100%;
+    margin: 0 0 60px 0;
+}
+
+#collection .content .member img, #my-tokens .content .member img {
+    border-radius: 22px;
+}
+
+.member img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+iframe, img, svg {
+    border-radius: 22px;
+    vertical-align: middle;
+}
+
+.member {
+    text-decoration: none;
+    color: #fff;
+    flex: auto;
+    margin: 30px !important;
+    position: relative;
+    width: 15%;
+    min-width: 180px;
+    max-width: 180px;
+    outline: none;
+    display: block;
+}
+
+a{
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#collection .content .member:after, #my-tokens .content .member:after {
+    height: 130%;
+}
+
+.member:after {
+    content: "";
+    background-image: url(/images/meltedice.svg);
+    background-repeat: no-repeat;
+    background-size: 99%;
+    width: 108%;
+    height: 85%;
+    display: block;
+    position: absolute;
+    top: -8px;
+    left: -8px;
+}
+
+.member .infos svg {
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+}
+
+
+#team{
+    margin-top: 150px;
+}
+
+
+
